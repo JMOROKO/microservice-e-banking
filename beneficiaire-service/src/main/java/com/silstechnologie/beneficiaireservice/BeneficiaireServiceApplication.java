@@ -34,6 +34,9 @@ public class BeneficiaireServiceApplication {
                         .RIB(UUID.randomUUID().toString())
                         .type(Math.random() > 0.5 ? TypeBeneficiaire.MORALE : TypeBeneficiaire.PHYSIQUE)
                         .build();
+                System.out.println("===================");
+                System.out.println(Math.random());
+                System.out.println("===================");
                 beneficiaireRepository.save(beneficiaire);
             });
 
