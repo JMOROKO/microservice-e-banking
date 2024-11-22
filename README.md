@@ -60,4 +60,10 @@ appelé model.</p>
 <img src="images/22.png" alt="Config"/> <br/>
 
 # 5- Configuration dynamique du routage
-
+<p>Permet d'éviter de ne pas à chaque fois faire le lien entre le microservice et la route.</p>
+<b>5.a- Création du bean DiscoveryClientRouteDefinitionLocator dans le fichier d'entre de l'application de la gateway</b> <br>
+<img src="images/23.png" alt="Config"/> <br/>
+<b>5.b- Ecrire les noms des microservices en minuscule, modifier le fichier application.properties de la gateway</b> <br>
+<img src="images/24.png" alt="Config"/> <br/>
+<b>5.c- Resultats</b> <br>
+<img src="images/25.png" alt="Config"/> <br/>
