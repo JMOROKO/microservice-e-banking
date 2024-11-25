@@ -12,7 +12,7 @@ import java.util.Date;
 public class Virement {
     @Id
     private String identifiant;
-    private String RibSource;
+    private String ribSource;
     private Double montant;
     private String description;
     private Date dateVirement;

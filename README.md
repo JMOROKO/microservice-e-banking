@@ -67,3 +67,27 @@ appelé model.</p>
 <img src="images/24.png" alt="Config"/> <br/>
 <b>5.c- Resultats</b> <br>
 <img src="images/25.png" alt="Config"/> <br/>
+
+# 6- Relation entre class de microservices
+<b>6.a- Installation de OpenFeign</b> <br/>
+<p>Puisse qu'il s'agit des microservices et que les tables ne sont pas dans une seule base de données. Il faut donc utiliser
+un système pour faciliter la communication entre les tables. Pour ce faire, il faut utiliser openFeign.</p>
+<img src="images/26.png" alt="OpenFeign"/> <br/>
+<b>6.b- Reformater les class HATEOAS</b> <br/>
+<p>Cette dépendances permet de formater les retours des appels dans le but de respecter l'architecture des 
+reponses rest fournis par @RepositoryRestRessources.</p>
+<img src="images/27.png" alt="OpenFeign"/> <br/>
+<b>6.c- Activation de OpenFeign</b>
+<img src="images/28.png" alt="OpenFeign"/> <br/>
+<b>6.4- Utilisation de OpenFeign</b>
+<ul>
+    <ol>Création du package feign</ol>
+</ul>
+<img src="images/29.png" alt="OpenFeign"/> <br/>
+<ul>
+    <ol>Utilisation de OpenFeign</ol>
+</ul>
+<img src="images/30.png" alt="OpenFeign"/> <br/>
+<p>PagedModel vient de la dépendance HATEOAS afin de récupérer la liste tel que retourné par le client rest.</p>
+
+
