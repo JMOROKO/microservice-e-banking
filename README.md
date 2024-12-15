@@ -81,13 +81,17 @@ reponses rest fournis par @RepositoryRestRessources.</p>
 <img src="images/28.png" alt="OpenFeign"/> <br/>
 <b>6.4- Utilisation de OpenFeign</b>
 <ul>
-    <ol>Création du package feign</ol>
+    <li>Création du package feign</li>
 </ul>
 <img src="images/29.png" alt="OpenFeign"/> <br/>
 <ul>
-    <ol>Utilisation de OpenFeign</ol>
+    <li>Utilisation de OpenFeign</li>
 </ul>
 <img src="images/30.png" alt="OpenFeign"/> <br/>
 <p>PagedModel vient de la dépendance HATEOAS afin de récupérer la liste tel que retourné par le client rest.</p>
 
-
+# 7- Réalisation du micro service chat bot rag
+<b>7.a- Les dépendances</b>
+<img src="images/31.png" alt="dependances"/> <br/>
+<b>7.b- Les dépendances</b>
+<img src="images/31.png" alt="dependances"/> <br/>
